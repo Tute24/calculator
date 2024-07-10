@@ -1,0 +1,37 @@
+body {
+    background-color:dimgrey;
+    }
+.display{
+    margin-top: 20px; 
+    align-items: center;   
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+#calcBar{
+    background-color: beige;
+    border-radius: 3rem;
+    border:3rem,bold,white;
+    height: 1.5rem;
+    margin-top: 10px;
+    width:21rem
+}
+#keysSec{
+    display:grid;
+    background-color: dimgrey;
+    width: 21rem;
+    grid-template-columns: 5rem 5rem 5rem 5rem;
+    grid-template-rows: 4rem 4rem 4rem 4rem 4rem;
+    gap:8px;
+    margin-top: 20px;
+}
+#keysSec span{
+    display: grid;
+    background-color:darksalmon;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size:1.5rem;
+    font-weight: bold;
+    place-content: center;
+}
